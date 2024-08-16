@@ -12,7 +12,7 @@ const VerifyEmail = () => {
 		const verifyEmailUrl = async () => {
 			try {
 				// Adjusted URL to match the backend port
-				const url = `http://localhost:5500/api/user/${param.id}/verify/${param.token}`;
+				const url = `https://cw2-backend-pees.onrender.com/api/user/${param.id}/verify/${param.token}`;
 				const { data } = await axios.get(url);
 				console.log(data);
 				setValidUrl(true);

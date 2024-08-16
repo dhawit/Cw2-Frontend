@@ -41,7 +41,7 @@ const RequestOtpForm = () => {
     setOtpSent(false);
 
     try {
-      const response = await axios.post('http://localhost:5500/api/send-otp', { email });
+      const response = await axios.post('https://cw2-backend-pees.onrender.com/api/send-otp', { email });
       setMessage(response.data.message);
       setOtpSent(true);
       navigate('/reset-password');

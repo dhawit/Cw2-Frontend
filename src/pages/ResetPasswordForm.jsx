@@ -64,7 +64,7 @@ const ResetPasswordForm = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:5500/api/verify-otp-and-update-password",
+        "https://cw2-backend-pees.onrender.com/api/verify-otp-and-update-password",
         { email, otp, newPassword: password }
       );
       setMessage(response.data.message);

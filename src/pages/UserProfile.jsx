@@ -50,7 +50,7 @@ const UserProfile = () => {
             const userId = decodedToken._id;
             if (!userId) throw new Error("Unable to decode token or retrieve user ID.");
 
-            const response = await axios.get(`http://localhost:5500/api/user/profile/${userId}`, {
+            const response = await axios.get(`https://cw2-backend-pees.onrender.com/api/user/profile/${userId}`, {
                 headers: { Authorization: `Bearer ${token}` },
             });
 
@@ -110,7 +110,7 @@ const UserProfile = () => {
             };
 
             await axios.put(
-                `http://localhost:5500/api/user/edit/${userId}`,
+                `https://cw2-backend-pees.onrender.com/api/user/edit/${userId}`,
                 editedData,
                 config
             );
