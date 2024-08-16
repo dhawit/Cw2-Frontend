@@ -1,0 +1,101 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.error-message {
+    color: red;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.avatar-large {
+    width: 120px;
+    height: 120px;
+    font-size: 40px;
+}
+
+.profile-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+}
+
+.profile-details {
+    margin-left: 20px;
+}
+
+.profile-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.profile-info {
+    color: gray;
+}
+
+.profile-actions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.edit-button {
+    background-color: #3f51b5;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    text-transform: none;
+}
+
+.modal-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: auto;
+}
+
+.modal-header {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.modal-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.cancel-button {
+    background-color: #f44336;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    text-transform: none;
+}
+
+.save-button {
+    background-color: #4caf50;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    text-transform: none;
+}
+
+.snackbar {
+    background-color: #4caf50;
+    color: white;
+    font-weight: bold;
+}
