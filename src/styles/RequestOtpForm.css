@@ -1,0 +1,63 @@
+.container {
+    max-width: 100%;
+  }
+  
+  .card {
+    border-radius: 15px;
+    max-width: 600px; /* Increased max width for a larger card */
+    margin: auto; /* Center the card horizontally */
+  }
+  
+  .card-header {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  .card-footer {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #f8f9fa;
+  }
+  
+  .input-group-text {
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+  }
+  
+  .btn-block {
+    width: 100%;
+  }
+  
+  .btn-block:hover {
+    background-color: #218838;
+  }
+  
+  .invalid-feedback {
+    display: block;
+  }
+  
+  .mt-4 {
+    margin-top: 1.5rem !important;
+  }
+  
+  .text-success {
+    color: #28a745 !important;
+  }
+  
+  .text-danger {
+    color: #dc3545 !important;
+  }
+  
+  .shadow-lg {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+  }
+  
+  .shadow {
+    box-shadow: 0 .25rem .5rem rgba(0,0,0,.15) !important;
+  }
+  
+  /* Adjust margin-top for the container to increase space at the top */
+  .container {
+    margin-top: 80px;
+  }
+  
