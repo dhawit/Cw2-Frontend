@@ -3,7 +3,7 @@ import axios from "axios";
 
 // Creating Axios instance
 const Api = axios.create({
-    baseURL: "http://localhost:5500",
+    baseURL: "https://cw2-backend-pees.onrender.com/",
     withCredentials: true,
 })
 
