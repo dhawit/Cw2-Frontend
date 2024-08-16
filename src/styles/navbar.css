@@ -1,0 +1,88 @@
+/* Navbar Container */
+.navbar {
+  background-color: #f8f9fa;
+  padding: 10px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  height: 50px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.navbar-logo:hover {
+  transform: scale(1.1);
+}
+
+.nav-link {
+  font-size: 18px;
+  color: #343a40;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #e91e63;
+}
+
+.nav-link.active {
+  color: #e91e63;
+  font-weight: bold;
+  border-bottom: 2px solid #e91e63;
+  padding-bottom: 5px;
+}
+
+.dropdown-toggle {
+  font-size: 18px;
+  color: #fff;
+  background-color: #343a40;
+  border-color: #343a40;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.dropdown-toggle:hover {
+  background-color: #e91e63;
+  border-color: #e91e63;
+}
+
+.dropdown-menu {
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-item {
+  font-size: 16px;
+  color: #343a40;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.dropdown-item:hover {
+  background-color: #e91e63;
+  color: #fff;
+}
+
+.btn-outline-danger, .btn-outline-success {
+  font-size: 16px;
+  padding: 5px 15px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.btn-outline-danger:hover {
+  background-color: #e91e63;
+  color: #fff;
+}
+
+.btn-outline-success:hover {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.navbar-toggler-icon {
+  filter: invert(1);
+}
